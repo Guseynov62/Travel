@@ -1,0 +1,78 @@
+.contact{
+    width: 100%;
+    height: 400px;
+}
+
+.contact img {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.contact .containeR {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    top: 20%;
+    left: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containeR h1{
+    font-size: 80px;
+    color: rgb(203, 200, 200);
+}
+.containeR p{
+    font-size: 15px;
+    color: rgb(166, 161, 161);
+}
+
+
+/* .... */
+
+.contenT{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.contenT .contentLeft{
+    width: 50%;
+    height: 700px;
+    display: flex;
+   font-size: 25px;
+   margin-top: 60px;
+   justify-content: center;
+}
+.contenT .contentRight{
+    width: 50%;
+    height: 700px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+.contentRight .up{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+
+}
+  .up h1{
+    font-size: 50px;
+  }
+  .up p{
+    font-size: 18px;
+  }
+  .up a{
+    text-decoration: none;
+    font-size: 15px;
+  }
